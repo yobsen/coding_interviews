@@ -3,6 +3,7 @@
 ## Sorting players scores by rank 
 ```
 Competitive Gaming
+
 A group of friends is playing a competitive video
 game together. During the game, each player
 receives a certain amount of points based on their
@@ -32,6 +33,7 @@ able to do so. Therefore, the answer is 3.
 ## Finding the most visited places in the sprint training class
 ```
 Sprint Training
+
 Pat is an ordinary kid who works hard to be a great
 runner. As part of training, Pat must run sprints of
 different intervals on a straight trail. The trail has
@@ -59,6 +61,7 @@ while sprinting.
 ## Transforming seconfs to time units
 ```
 Duration Formatter
+
 The function must accept a non-negative integer. If it is zero, it just returns "now". Otherwise, the duration is expressed as a combination of years, days, hours, minutes and seconds.
 
 It is much easier to understand with an example:
@@ -70,7 +73,7 @@ A year is 365 days and a day is 24 hours.
 
 Note that spaces are important.
 
-### Detailed rules
+Detailed rules
 
 The resulting expression is made of components like 4 seconds, 1 year, etc. In general, a positive integer and one of the valid units of time, separated by a space. The unit of time is used in plural if the integer is greater than 1.
 
@@ -84,8 +87,8 @@ A component will not appear at all if its value happens to be zero. Hence, 1 min
 
 A unit of time must be used "as much as possible". It means that the function should not return 61 seconds, but 1 minute and 1 second instead. Formally, the duration specified by of a component must not be greater than any valid more significant unit of time.
 ```
+## Transforming korean numerals to numbers
 
-##Transforming korean numerals to numbers
 ```
 DATA = [
   ['오백삼십조칠천팔백구십만천오백삼십구', '삼조사천이만삼천구'],
